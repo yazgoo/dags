@@ -32,7 +32,7 @@ t1 = BashOperator(
 
 t2 = BashOperator(
     task_id='sleep',
-    bash_command='sleep 2',
+    bash_command='sleep 5',
     retries=3,
     dag=dag)
 
