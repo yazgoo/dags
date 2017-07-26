@@ -1,4 +1,4 @@
- FROM mritd/pause-amd64
+ FROM alpine
  RUN mkdir /dags
  ADD dags/ /dags
  VOLUME /dags 
